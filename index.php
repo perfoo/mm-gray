@@ -56,8 +56,8 @@
             $hasData = true;
             echo "<div class='submission'>";
             echo "<img src='" . htmlspecialchars($row['photo_path']) . "' alt='Photo'>";
-            echo "<p>" . htmlspecialchars($row['text1']) . "</p>";
-            echo "<p>" . htmlspecialchars($row['text2']) . "</p>";
+            echo "<h4>" . htmlspecialchars($row['text1']) . "</h4>";
+            echo "<p class='black'>" . htmlspecialchars($row['text2']) . "</p>";
             echo "<p>" . htmlspecialchars($row['text3']) . "</p>";
             echo "</div>";
         }
